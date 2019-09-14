@@ -1,0 +1,114 @@
+body {
+	background-size: white;
+	background-image: url(img/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.flex-container {
+	display: flex;
+	background-color: transparent;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+  
+.flex-container > div {
+	background-color: transparent;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+h1 {
+	font-family: 'Lexend Deca', sans-serif;
+	text-align: center;
+	font-size: 60px;
+
+	color: black;
+	text-shadow: 2px 2px 4px #686868;
+
+	margin-top: 2rem;
+}
+
+buttonBird {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+buttonBird:hover {
+	background-color:#5cbf2a;
+}
+
+buttonBird:active {
+	position:relative;
+	top:1px;
+}
+
+ButtonPig {
+	background-color:#c74444;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ab1818;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #662727;
+}
+
+ButtonPig:hover {
+	background-color:#bf2a2a;
+}
+
+ButtonPig:active {
+	position:relative;
+	top:1px;
+}
+
+buttonDetalles {
+	background-color:#4481c7;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #185dab;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #274f66;
+}
+
+buttonDetalles:hover {
+	background-color:#2a70bf;
+}
+
+buttonDetalles:active {
+	position:relative;
+	top:1px;
+}
+
+img{
+	
+	width: "50px"; 
+	height: "50px";
+}
